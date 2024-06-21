@@ -1,0 +1,119 @@
+body{
+    background-color: black;
+    color: white;
+}
+h1{
+    color: yellow;
+    text-align: center;
+    font-family: "Kaushan Script", cursive;
+    font-style: normal;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+
+.my-designation{
+    text-align: center;
+    margin: 0;
+    color: grey;
+}
+.r{
+    color: red;
+}
+.container{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    justify-content: flex-start;
+    
+    height: 70vh;
+    
+}
+.y{
+    color: yellow;
+}
+.landing-page-my-info{
+        text-align: center;
+}
+.landing-page-my-options .options{
+    padding: 10px 20px; /* Adjust padding to provide space around text */
+    border-radius: 20px;
+    display: block; /* Ensure each option takes the width of its content */
+    margin: 5px;
+    text-align: center;
+    box-shadow: 0 0 0 2px yellow; 
+    
+}
+.options.experience{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+a:hover{
+    color: red;
+}
+
+.footer{
+    font-size: 10px;
+    position: fixed; 
+    bottom: 0; 
+    right: 0;
+    background-color: grey;
+}
+.aboutme-section{
+    font-size: large;
+}
+p.welcome{
+    text-align: center;
+}
+.more-aboutme{
+    box-shadow: 0 0 0 2px yellow;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+}
+
+.nav {
+    position: fixed;
+    top: 20px; /* Adjust as needed */
+    left: 20px; /* Adjust as needed */
+    display: flex;
+    
+    justify-content: space-between; /* Add space between items */
+    width: calc(100% - 40px); /* Adjust width based on your design */
+    z-index: 1000; /* Ensure it's above other content */
+
+}
+
+
+
+.nav h2 {
+    margin: 0; 
+    cursor: pointer;
+}
+
+.col-md-7.col-lg-8{
+    width: 0;
+}
+
+@media only screen and (max-width: 630px) {
+    body {
+      background-color: black;
+    }
+    .container{
+        flex-direction: column;
+    }
+    img{
+        border-radius: 50%;
+        height: 200px;
+    }
+    .landing-page-my-info{
+        padding-right: 0;
+        
+    }
+    
+    .options-landing-page{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}

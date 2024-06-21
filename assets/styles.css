@@ -1,0 +1,46 @@
+.custom-center {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: black;
+}
+.form-label{
+    color: white;
+}
+.py-5{
+    color: grey;
+    background-color: black;
+}
+
+.py-5 h2 {
+    margin-bottom: 0;
+}
+
+.mypic{
+    border-radius: 50%;
+    height: 30px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between; /* Center align items horizontally */
+    align-items: center; /* Center align items vertically */
+    padding: 20px; /* Adjust padding as needed */
+    background-color: #f8f9fa; /* Example background color */
+}
+
+.footer-icons {
+    display: flex;
+    gap: 10px; /* Adjust the gap between icons */
+}
+
+.footer-icons img {
+    width: 40px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.footer p {
+    margin: 0; /* Remove default margin */
+}
+
+
